@@ -1,0 +1,35 @@
+# sent_id = 2013Algoritm.xml_11
+# text = "Алгоритм - это всякая система вычислений, выполняемых по строго определённым правилам, которая после какого-либо числа шагов заведомо приводит к решению поставленной задачи". (А.Колмогоров).
+1	"	"	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
+2	Алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	_
+3	-	-	PUNCT	_	_	2	punct	2:punct	_
+4	это	это	PRON	_	PronType=Dem	6	cop	6:cop	_
+5	всякая	всякий	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	6	det	6:det	_
+6	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	_
+7	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	6:nmod:gen	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	9:punct	_
+9	выполняемых	выполнять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
+10	по	по	ADP	_	_	13	case	13:case	_
+11	строго	строго	ADV	_	Degree=Pos	12	advmod	12:advmod	_
+12	определённым	определить	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	13:acl	_
+13	правилам	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	9:obl:по:dat	SpaceAfter=No
+14	,	,	PUNCT	_	_	9	punct	9:punct	_
+15	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	21	nsubj	21:nsubj	_
+16	после	после	ADP	_	_	18	case	18:case	_
+17	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	18	det	18:det	_
+18	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	21:obl:после:gen	_
+19	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	18:nmod:gen	_
+20	заведомо	заведомо	ADV	_	Degree=Pos	21	advmod	21:advmod	_
+21	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl	_
+22	к	к	ADP	_	_	23	case	23:case	_
+23	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	obl	21:obl:к:dat	_
+24	поставленной	ставить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	25:amod	_
+25	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	23:nmod:gen	SpaceAfter=No
+26	"	"	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	6:punct	_
+28	(	(	PUNCT	_	_	29	punct	29:punct	SpaceAfter=No
+29	А.	А.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	parataxis	6:parataxis	SpaceAfter=No
+30	Колмогоров	Колмогоров	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat:name	29:flat	SpaceAfter=No
+31	)	)	PUNCT	_	_	29	punct	29:punct	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	6:punct	_
+

@@ -1,0 +1,39 @@
+# sent_id = 2013Algoritm.xml_11
+# text = "Алгоритм - это всякая система вычислений, выполняемых по строго определённым правилам, которая после какого-либо числа шагов заведомо приводит к решению поставленной задачи". (А.Колмогоров).
+1	_	_	"Алгоритм - это всякая система вычислений, выполняемых по строго определённым правилам, которая после какого-либо числа шагов заведомо приводит к решению поставленной задачи". (А.Колмогоров).	_	_	0	root	0:root	_
+2	"	"	PUNCT	_	_	7	punct	7:punct	SpaceAfter=No
+3	Алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	_
+4	-	-	PUNCT	_	_	3	punct	3:punct	_
+5	это	это	PRON	_	PronType=Dem	7	cop	7:cop	_
+6	всякая	всякий	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	7:det	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	root	1:root	_
+8	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	7:nmod	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	10:punct	_
+10	выполняемых	выполнять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	acl	8:acl	_
+11	_	_	по правилам	_	_	10	obl	10:obl	_
+12	по	по	ADP	_	_	11	case	15:case	_
+13	строго	строго	ADV	_	Degree=Pos	14	advmod	14:advmod	_
+14	определённым	определить	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	15:acl	_
+15	правилам	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	11	obl	11:obl	SpaceAfter=No
+16	,	,	PUNCT	_	_	10	punct	10:punct	_
+17	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	24	nsubj	24:nsubj	_
+18	_	_	после числа	_	_	24	obl	24:obl	_
+19	после	после	ADP	_	_	18	case	21:case	_
+20	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	18	det	21:det	_
+21	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	18:obl	_
+22	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	21:nmod	_
+23	заведомо	заведомо	ADV	_	Degree=Pos	24	advmod	24:advmod	_
+24	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
+25	_	_	к решению	_	_	24	obl	24:obl	_
+26	к	к	ADP	_	_	25	case	27:case	_
+27	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	obl	25:obl	_
+28	поставленной	ставить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	29:amod	_
+29	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	27:nmod	SpaceAfter=No
+30	"	"	PUNCT	_	_	7	punct	7:punct	SpaceAfter=No
+31	.	.	PUNCT	_	_	7	punct	7:punct	_
+32	(	(	PUNCT	_	_	33	punct	33:punct	SpaceAfter=No
+33	А.	А.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	parataxis	7:parataxis	SpaceAfter=No
+34	Колмогоров	Колмогоров	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	flat:name	33:flat:name	SpaceAfter=No
+35	)	)	PUNCT	_	_	33	punct	33:punct	SpaceAfter=No
+36	.	.	PUNCT	_	_	7	punct	7:punct	_
+
